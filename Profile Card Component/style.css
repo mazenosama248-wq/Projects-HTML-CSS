@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #19a1ad;
+  background-image:
+    url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
+  background-position:
+    right 52vw bottom 35vh,
+    left 48vw top 52vh;
+  background-repeat: no-repeat, no-repeat;
+  min-height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: "Cairo";
+}
+.main-section {
+  width: 350px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img-card-person {
+  margin-top: -15px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+.info-card {
+  display: flex;
+  flex-direction: column;
+}
+.card-name {
+  font-size: 20px;
+}
+.card-age {
+  font-weight: normal;
+}
+.location {
+  align-self: center;
+  padding-bottom: 10px;
+}
+footer {
+  border-top: 1px solid black;
+  align-self: stretch;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  gap: 1px;
+}
+.footer-stat {
+
+  font-weight: bold;
+  font-size: 20px;
+  color: #3c3e4c;
+}
+.p-card {
+  font-weight: normal;
+  font-size: 10px;
+}
