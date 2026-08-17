@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f5f5f5;
+  font-family: "Outfit";
+  font-size: 13px;
+  color: #fff3ff;
+}
+/* Grid */
+.main-page {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 35px;
+  max-width: 1110px;
+  margin: 50px auto;
+}
+/* Flex */
+article {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 7px;
+}
+.head-card {
+  display: flex;
+  gap: 12px;
+}
+
+.Daniel {
+  grid-column: span 2;
+  background-color: #733fc8;
+  background-image: url("images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position-x: 88%;
+  width: 540px;
+  box-shadow: 20px 32px 47px rgb(0, 0, 0, 0.5);
+}
+.Jonathan {
+  background-color: #49556b;
+  width: 255px;
+  box-shadow: 20px 32px 47px rgb(0, 0, 0, 0.5);
+}
+.Kira {
+  background-color: #ffffff;
+  grid-column: 4;
+  grid-row: 1 / span 2;
+  width: 255px;
+  color: #6c6e7b;
+  box-shadow: 20px 32px 47px rgb(0, 0, 0, 0.5);
+}
+.Jeanette {
+  background-color: #ffff;
+  color: #6c6e7b;
+  box-shadow: 20px 32px 47px rgb(0, 0, 0, 0.5);
+}
+.Patrick {
+  grid-column: span 2;
+  background-color: #191f2d;
+  color: #c6c9d0;
+  width: 540px;
+  box-shadow: 20px 32px 47px rgb(0, 0, 0, 0.5);
+}
+img {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  order: -1;
+}
+.img-daniel {
+  border: 2px solid #9f6aca;
+}
+.img-patrick {
+  border: 2px solid #6e40bd;
+}
